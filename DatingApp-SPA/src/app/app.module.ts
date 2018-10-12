@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
 
-
 @NgModule({
    declarations: [
       AppComponent,
@@ -15,7 +14,6 @@ import { ValueComponent } from './value/value.component';
       BrowserModule,
       HttpClientModule
    ],
-   providers: [],
    bootstrap: [
       AppComponent
    ]
